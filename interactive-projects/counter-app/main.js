@@ -17,7 +17,6 @@ document.getElementById('inc-btn').onclick = function () {
     document.getElementById('countLabel').innerHTML = count;
 
     updateCounter()
-
 }
 
 
@@ -37,8 +36,9 @@ function updateCounter() {
 
 
 
-function history(){
-    
+function genrateHistory(){
+    var time = getlocaltime()
+    console.log(time)
 }
 
 

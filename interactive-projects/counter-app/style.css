@@ -16,6 +16,7 @@ body {
 
     display: flex;
     flex-direction: column;
+    gap: 25px;
 }
 
 .button {
@@ -88,3 +89,29 @@ body {
     width: 42%;
 
   } */
+
+
+  
+#history{
+    width: 50%;
+    
+}
+
+table{
+    width: 100%;
+    border-radius: 20px;
+    background-color: #f788005f;
+
+
+}
+table , tr , th , td{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding: 8px;
+/* border-color: #5b518660; */
+text-align: center;
+border-collapse: collapse;
+border: none;
+
+}

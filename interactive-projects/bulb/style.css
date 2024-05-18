@@ -1,0 +1,20 @@
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    #main {
+        height: 100%;
+        width: 100%;
+        background-color: #9088a52a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    i {
+        height: 500px;
+    }
