@@ -1,90 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SMIT form</title>
-</head>
+  </head>
 
-<body>
-    <br><br>
-    <pre
-        align="center"><h3><a href="#">New Application</a>       <a href="pages\admit_card.html">Download Admit Card</a>      <a href="pages\result.html">Results</a></h3></pre>
-<form>
-<h3><label>Select city</label>
-<br>
+  <body>
 
-    <select name="city" >
-        <option value="kar">karachi</option>
-        <option value="isb">islamabad</option>
-      </select><br><br>
-      <br>
+    <div>
+      <h3>
+        <!-- <label>Select city</label>
+        <br />
 
-<label>Full name</label>
-<br>
+        <select name="city">
+          <option value="kar">karachi</option>
+          <option value="isb">islamabad</option></select
+        ><br /><br />
 
-<input type="text">
-<br><br>
-<br>
+        <label>Full name</label>
+        <br /> 
+        <input type="text" />
+        <br /><br />-->
 
-<label>E mail</label>
-<br>
-<input type="email">
+        <label>E mail</label>
+        <br />
+        <input type="email" id="signup_email" />
+        <br /><br />
+        
+        <label>password</label>
+        <br />
+        <input type="password" id="signup_password">
+<!-- 
+        <label>CNIC</label>
+        <br />
+        <input type="number" />
+        <br /><br />
 
-<br><br>
-<br>
+        <label>Date of Birth</label>
+        <br />
+        <input type="date" />
+        <br /><br />
+        <br />
 
-<label>CNIC</label>
-<br>
-<input type="number">
-<br><br>
-<br>
+        <label>Address</label>
+        <br />
+        <input type="text" />
+        <br /><br />
 
-<label>Date of Birth</label>
-<br>
-<input type="date">
-<br><br>
-<br>
+        <label>Last Qualification</label>
+        <br />
 
-<label>Address</label>
-<br>
-<input type="text">
-<br><br>
-<br>
+        <select name="Qualification">
+          <option value="matric">matriculation</option>
+          <option value="inter">intermedate</option>
+          <option value="undergradute">undergraduation</option>
+          <option value="gradute">graduation</option>
+          <option value="master">masters</option>
+          <option value="inter">PHD</option></select
+        >
+        <br /><br />
+        <label>do you have a laptop</label>
+        <br />
 
-<label>Last Qualification</label>
-<br>
+        <select name="laptop">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </h3> -->
 
-<select name="Qualification" >
-    <option value="matric">matriculation</option>
-    <option value="inter">intermedate</option>
-    <option value="undergradute">undergraduation</option>
-    <option value="gradute">graduation</option>
-    <option value="master">masters</option>
-    <option value="inter">PHD</option>
-    
-  </select><br>
-  <br><br>
-  <br>
-<label>do you have a laptop</label>
-<br>
+      <br />
+      <br />
 
-<select name="laptop" >
-    <option value="yes">Yes</option>
-    <option value="no">No</option>
-  </select></h3>
-
-  <br>
-  <br>
-  <br>
-
-
-  <input type="submit" value="Submit">
-
-
-
-
-</form>
-</body>
+      <button  value="signup" id="signup_btn" >create user</button>
+    </div>
+    <script src="app.js" type="module"></script>
+  </body>
 </html>
