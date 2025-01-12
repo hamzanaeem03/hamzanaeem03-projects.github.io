@@ -2,26 +2,24 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="text-gray-600  min-h-screen font-sans">
+    <div className="text-[#261956]  min-h-screen container p-8 md:container md:mx-auto justify-center">
       {/* Header */}
-      <header className="body-fonttext-gray-600 ">
+      <header>
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center ">
           {/* Left Content */}
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-600 ">
-              Muhammad Hamza Naeem
-              <br className="hidden lg:inline-block" />
-              Aspiring Software Engineer
+            <h1 className="text-6xl md:text-6xl mb-4">
+              Hi, I'm Hamza Naeem
             </h1>
-            <p className="mb-8 leading-relaxed text-gray-600 ">
+            <p className="mb-8 leading-relaxed text-xl md:text-2xl mt-12 text-[#55577e98]">
               Dynamic Full stack developer eager to contribute to web
               application development with innovative solutions.
             </p>
-            <div className="flex justify-center">
+            {/* <div className="flex justify-center">
               <button className="inline-flex text-white bg-[#18181a] border-0 py-2 px-6 focus:outline-none hover:bg-[#18181a] rounded text-lg">
                 Contact Me
               </button>
-              <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+              <button className="ml-4 inline-flex  bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
                 <a
                   href="https://hamzanaeem03.github.io/portfolio/"
                   target="_blank"
@@ -29,7 +27,7 @@ export default function Home() {
                   View Portfolio
                 </a>
               </button>
-            </div>
+            </div> */}
           </div>
           {/* Right Content */}
           <div className="lg:max-w-lg lg:w-full  md:w-1/2 w-5/6">
@@ -134,8 +132,8 @@ export default function Home() {
                 <p className="leading-relaxed text-base text-gray-700">
                   360XpertSolutions | 06/2024 - 12/2024
                 </p>
-                <ul className="list-disc mt-2 ml-5 text-gray-700">
-                  <li>
+                <ul className="list-disc mt-2 ml-5 text-gray-700 ">
+                  <li className="font-extralight">
                     Translated Figma designs into pixel-perfect code using
                     Next.js and TailwindCSS.
                   </li>
